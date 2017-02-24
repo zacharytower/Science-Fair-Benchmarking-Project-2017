@@ -1,0 +1,131 @@
+*** stack smashing detected ***: ./fpc_c terminated
+Aborted
+
+real	0m2.789s
+user	0m0.820s
+sys	0m1.152s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ nano fpc.c
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ 
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ 
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ gcc fpc.c -o fpc_c
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ ./fpc_c
+*** stack smashing detected ***: ./fpc_c terminated
+Aborted
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_c
+*** stack smashing detected ***: ./fpc_c terminated
+Aborted
+
+real	0m0.542s
+user	0m0.536s
+sys	0m0.004s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_c
+*** stack smashing detected ***: ./fpc_c terminated
+Aborted
+
+real	0m0.537s
+user	0m0.532s
+sys	0m0.004s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_c\
+> ^C
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_c
+*** stack smashing detected ***: ./fpc_c terminated
+Aborted
+
+real	0m0.545s
+user	0m0.544s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ .545+.537+.542
+.545+.537+.542: command not found
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_cpp
+
+real	0m0.267s
+user	0m0.252s
+sys	0m0.012s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_cpp
+
+real	0m0.268s
+user	0m0.264s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time ./fpc_cpp
+
+real	0m0.268s
+user	0m0.264s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time python 
+fpc.py     numgen.py  
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time python fpc.py 
+
+real	0m0.983s
+user	0m0.960s
+sys	0m0.020s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time python fpc.py 
+
+real	0m0.985s
+user	0m0.948s
+sys	0m0.036s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ time python fpc.py 
+
+real	0m1.026s
+user	0m0.984s
+sys	0m0.040s
+zachary@zachary-linux-mint ~/prog/science fair/FPC $ cd ..
+zachary@zachary-linux-mint ~/prog/science fair $ cd Primes/
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_c
+78487
+
+real	0m0.342s
+user	0m0.336s
+sys	0m0.004s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_c
+78487
+
+real	0m0.342s
+user	0m0.332s
+sys	0m0.008s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_c
+78487
+
+real	0m0.340s
+user	0m0.336s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_cpp
+78487
+
+real	0m0.393s
+user	0m0.392s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_cpp
+78487
+
+real	0m0.391s
+user	0m0.388s
+sys	0m0.000s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time ./primes_cpp
+78487
+
+real	0m0.393s
+user	0m0.392s
+sys	0m0.004s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time python primes.py 
+78487
+
+real	0m9.084s
+user	0m9.044s
+sys	0m0.036s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time python primes.py 
+78487
+
+real	0m9.043s
+user	0m9.016s
+sys	0m0.024s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ time python primes.py 
+78487
+
+real	0m9.252s
+user	0m9.240s
+sys	0m0.004s
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ save
+The program 'save' is currently not installed. You can install it by typing:
+sudo apt install atfs
+zachary@zachary-linux-mint ~/prog/science fair/Primes $ 
+
